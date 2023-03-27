@@ -11,10 +11,7 @@ type Contact struct {
 	NoTelp string
 }
 
-var Contacts []Contact = []Contact{
-	{
-		Id:     1,
-		Name:   "Umar",
-		NoTelp: "0812",
-	},
-}
+var Contacts []Contact
+
+// METHOD GET /contacts/ => list contacts
+// METHOD POST /contacts/ => insert contact
